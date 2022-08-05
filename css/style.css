@@ -26,7 +26,7 @@ html body{
 }
 
 header{
-    background-color:var(--cor2);
+    background-image: linear-gradient(to bottom, #ffff00,#f35424,#ff0000);
     color:var(--cor5);
     text-align: center;
 }
@@ -61,6 +61,7 @@ section > p{
 }
 section#img01{
     background-image: url('../imagens/background001.jpg'); 
+    background-position: left bottom;
 
 }
 section#img02{
@@ -73,7 +74,7 @@ section.normal{
 }
 section.imagem{
     background-color:var(--cor4);
-    color: darkgrey;
+    color:white;
     text-shadow: 2px 2px 0 rgb(0, 0, 0);
     box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.479);
     background-size: cover;
@@ -85,7 +86,7 @@ section.imagem >p{
     background-color: rgba(0, 0, 0, 0.233);
 }
 footer{
-    background-color:var(--cor2);
+    background-image: linear-gradient(to bottom, #ffff00,#f35424,#ff0000);
     color: var(--cor5);
     text-align: center;
     padding: 10px;
