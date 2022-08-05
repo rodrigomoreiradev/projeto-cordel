@@ -27,11 +27,11 @@ html body{
 
 header{
     background-image: linear-gradient(to bottom, #ffff00,#f35424,#613318);
-    color:var(--cor5);
+    color:#DAFDBA;
     text-align: center;
 }
 header >h1{
-    color: #613318;
+    color: #DAFDBA;
     text-shadow: 5px 5px 5px  black;
     padding-top: 50px;
     font-variant: small-caps;
@@ -89,7 +89,7 @@ section.imagem >p{
 }
 footer{
     background-color: #613318;
-    color: var(--cor5);
+    color:#DAFDBA;
     text-align: center;
     padding: 10px;
 }
