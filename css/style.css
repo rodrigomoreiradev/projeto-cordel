@@ -26,11 +26,13 @@ html body{
 }
 
 header{
-    background-image: linear-gradient(to bottom, #ffff00,#f35424,#ff0000);
+    background-image: linear-gradient(to bottom, #ffff00,#f35424,#613318);
     color:var(--cor5);
     text-align: center;
 }
 header >h1{
+    color: #613318;
+    text-shadow: 5px 5px 5px  black;
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
@@ -40,7 +42,7 @@ header >p {
     padding-bottom: 50px;
 }
 a{
-    color: var(--cor5);
+    color:white;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -86,7 +88,7 @@ section.imagem >p{
     background-color: rgba(0, 0, 0, 0.233);
 }
 footer{
-    background-image: linear-gradient(to bottom, #ffff00,#f35424,#ff0000);
+    background-color: #613318;
     color: var(--cor5);
     text-align: center;
     padding: 10px;
